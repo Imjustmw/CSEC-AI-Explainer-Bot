@@ -38,7 +38,7 @@ If I could do this in an hour, imagine what I could build with a team and a full
 ## Demo Video
 
 Watch a short demo:
-Drive Link<https://drive.google.com/file/d/1xRCm3W0n8ega0iHN-s2-tW3sKXDLPYaa/view?usp=sharing>
+[Watch the demo on Google Drive](https://drive.google.com/file/d/1xRCm3W0n8ega0iHN-s2-tW3sKXDLPYaa/view?usp=sharing)
 ---
 
 ## Try It Yourself
