@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSEC Math Explainer Bot</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; max-width: 600px; margin: auto; }
+    input, button { padding: 0.5rem; font-size: 1rem; margin-top: 1rem; width: 100%; }
+    #result { margin-top: 2rem; background: #f5f5f5; padding: 1rem; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>CSEC Math Explainer</h1>
+  <p>Ask any CSEC Math question:</p>
+  <input type="text" id="questionInput" placeholder="e.g. What is a right angle triangle?" />
+  <button onclick="askQuestion()">Ask</button>
+
+  <div id="result"></div>
+
+  <script>
+    // Some AJAX to call route updates without reloading
+    async function askQuestion() {
+      const input = document.getElementById("questionInput").value;
+      const res = await fetch("/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question: input })
+      });
+
+      const data = await res.json();
+      const resultDiv = document.getElementById("result");
+
+      if (data.question) {
+        resultDiv.innerHTML = `<strong>Matched:</strong> ${data.question}<br/><br/><strong>Answer:</strong> ${data.answer}`;
+      } else {
+        resultDiv.innerHTML = `<em>${data.answer}</em>`;
+      }
+    }
+  </script>
+</body>
+</html>

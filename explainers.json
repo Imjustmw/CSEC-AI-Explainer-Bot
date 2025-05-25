@@ -8,5 +8,55 @@
     "id": 2,
     "question": "What is a percentage?",
     "answer": "A percentage is a way to express a number as a part of 100."
+  },
+  {
+    "id": 3,
+    "question": "How do you calculate the area of a rectangle?",
+    "answer": "Multiply the length by the width to get the area of a rectangle."
+  },
+  {
+    "id": 4,
+    "question": "What is the formula for the circumference of a circle?",
+    "answer": "The circumference of a circle is 2 times pi times the radius, or C = 2πr."
+  },
+  {
+    "id": 5,
+    "question": "What does the mean represent in statistics?",
+    "answer": "The mean is the average of a set of numbers, found by adding all values and dividing by the number of values."
+  },
+  {
+    "id": 6,
+    "question": "How do you solve a linear equation?",
+    "answer": "Isolate the variable by performing inverse operations until the variable is alone on one side of the equation."
+  },
+  {
+    "id": 7,
+    "question": "What is a factor?",
+    "answer": "A factor is a number that divides exactly into another number without leaving a remainder."
+  },
+  {
+    "id": 8,
+    "question": "What is the difference between a square and a rectangle?",
+    "answer": "A square has four equal sides and four right angles, while a rectangle has opposite sides equal and four right angles."
+  },
+  {
+    "id": 9,
+    "question": "How do you convert a fraction to a decimal?",
+    "answer": "Divide the numerator by the denominator to get the decimal equivalent of a fraction."
+  },
+  {
+    "id": 10,
+    "question": "What is the volume formula for a cuboid?",
+    "answer": "Volume of a cuboid is length times width times height (V = l × w × h)."
+  },
+  {
+    "id": 11,
+    "question": "What is the order of operations in math?",
+    "answer": "The order is brackets, orders (powers and roots), division and multiplication, addition and subtraction (BODMAS)."
+  },
+  {
+    "id": 12,
+    "question": "How do you find the median of a data set?",
+    "answer": "Arrange the numbers in order and find the middle value; if there is an even number of values, the median is the average of the two middle numbers."
   }
 ]
