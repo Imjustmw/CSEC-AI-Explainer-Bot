@@ -30,7 +30,11 @@
       const data = await res.json();
       const resultDiv = document.getElementById("result");
 
-      resultDiv.innerHTML = `<strong>Answer:</strong> ${data.answer}`;
+      if (data.question) {
+        resultDiv.innerHTML = `<strong>Matched:</strong> ${data.question}<br/><br/><strong>Answer:</strong> ${data.answer}`;
+      } else {
+        resultDiv.innerHTML = `<em>${data.answer}</em>`;
+      }
     }
   </script>
 </body>
