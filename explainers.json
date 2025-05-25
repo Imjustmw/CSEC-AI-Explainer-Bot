@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "question": "What is the Pythagorean Theorem?",
+    "answer": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides."
+  },
+  {
+    "id": 2,
+    "question": "What is a percentage?",
+    "answer": "A percentage is a way to express a number as a part of 100."
+  }
+]
